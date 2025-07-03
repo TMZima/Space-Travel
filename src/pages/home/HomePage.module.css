@@ -1,0 +1,24 @@
+.homePage {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.homePage h1 {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+}
+
+.homePage h2 {
+  color: #555;
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.homePage p {
+  color: #666;
+  font-size: 1em;
+}

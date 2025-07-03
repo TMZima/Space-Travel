@@ -1,0 +1,74 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common colors and styles */
+:root {
+  --font-family: Arial, sans-serif;
+  --line-height: 1.6;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --primary-color: #007bff;
+  --primary-hover-color: #0056b3;
+  --header-background-color: #333;
+  --header-text-color: white;
+}
+
+/* Set a global font style */
+body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Global main styles */
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Global link styles */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Global button styles */
+button {
+  font-family: var(--font-family);
+  font-size: 1em;
+  padding: 10px 20px;
+  color: var(--header-text-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+button:active {
+  background-color: var(--primary-color);
+}
+
+/* Global container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

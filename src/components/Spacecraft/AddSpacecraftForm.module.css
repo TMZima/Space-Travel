@@ -1,0 +1,64 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.formContainer button {
+  width: 150px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: var(--header-text-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formContainer button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.formContainer button:active {
+  background-color: var(--primary-color);
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer label {
+  margin-bottom: 10px;
+}
+
+.formContainer input,
+.formContainer textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formContainer textarea {
+  font-family: var(--font-family);
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.errorState {
+  color: red;
+  background-color: #fdd;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: center;
+}

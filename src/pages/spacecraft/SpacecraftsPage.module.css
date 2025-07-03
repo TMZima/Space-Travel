@@ -1,0 +1,64 @@
+.spacecraftsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.spacecraftsPage button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: var(--header-text-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.spacecraftsPage button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.spacecraftsPage button:active {
+  background-color: var(--primary-color);
+}
+
+.spacecraftsContainer {
+  justify-content: center;
+  gap: 20px;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: var(--header-background-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  color: red;
+  background-color: #fdd;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: center;
+}
